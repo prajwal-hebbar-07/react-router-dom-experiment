@@ -30,7 +30,29 @@ button {
   cursor: pointer;
 }
 
-/* navbar */
+/* Navbar Styles */
+header nav {
+  display: flex;
+  justify-content: end;
+  gap: 1.5rem;
+  max-width: 100%;
+  margin: 1.5rem auto;
+}
+
+header nav h1 {
+  margin-right: auto;
+  border-bottom: 3px solid var(--primary);
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+header nav a.active {
+  background: var(--primary);
+}
 
 /* page content */
 
