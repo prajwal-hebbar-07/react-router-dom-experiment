@@ -9,6 +9,7 @@ const RootLayout = () => {
           {/* This makes sure that the page is not completely loaded and all the content will be displayed in the Outlet */}
           <NavLink to="/">Home</NavLink>
           <NavLink to="about">About</NavLink>
+          <NavLink to="help">Help</NavLink>
         </nav>
       </header>
       <main>
