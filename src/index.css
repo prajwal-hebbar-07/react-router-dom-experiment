@@ -61,8 +61,60 @@ main {
 }
 
 /* help layout */
+.help-layout nav {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 3rem 0;
+}
+
+.help-layout nav a {
+  padding: 1.2rem;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+.help-layout nav a:hover {
+  border-color: var(--primary);
+}
+
+.help-layout nav a.active {
+  background: var(--primary);
+}
 
 /* faq */
+.faq .question {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+/* Contact Form */
+form {
+  margin-top: 2rem;
+}
+
+form input,
+form label span,
+form textarea {
+  display: block;
+}
+
+form input,
+form textarea {
+  margin-bottom: 2rem;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  border: 0;
+  width: 30rem;
+  color: var(--secondary);
+}
+
+form label span {
+  margin-bottom: 1.2rem;
+}
 
 /* careers list */
 
