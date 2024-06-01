@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div className="homePage">
+    <div className="home-page">
       <h2>Welcome to the Home Page</h2>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, tempore,

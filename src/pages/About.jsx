@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="aboutPage">
+    <div className="about-page">
       <h2>This is the About Page!</h2>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi

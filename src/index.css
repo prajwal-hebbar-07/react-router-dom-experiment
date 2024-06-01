@@ -46,8 +46,8 @@ header nav h1 {
 
 header nav a {
   text-decoration: none;
-  padding: 6px;
-  border-radius: 5px;
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.5rem;
 }
 
 header nav a.active {
@@ -55,6 +55,10 @@ header nav a.active {
 }
 
 /* page content */
+main {
+  max-width: 100%;
+  margin: 3rem auto;
+}
 
 /* help layout */
 
