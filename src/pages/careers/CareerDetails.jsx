@@ -18,6 +18,8 @@ export default CareerDetails;
 export const careerDetailsLoader = async ({ params }) => {
   const { id } = params;
   const res = await fetch("http://localhost:3001/careers/" + id);
-
+  if (!res.ok) {
+    throw Error("Career was not found");
+  }
   return res.json();
 };
